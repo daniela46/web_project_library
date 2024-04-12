@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Triple Peaks Library Logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a href="#eventos" class="nav__link">Eventos</a>
+            </li>
+            <li>
+              <a href="#staff" class="nav__link">Preferidos de nuestro staff</a>
+            </li>
+            <li>
+              <a href="#miembros" class="nav__link">Hazte miembro</a>
+            </li>
+            <li>
+              <a href="#nosotros" class="nav__link">Sobre nosotros</a>
+            </li>
+            <li>
+              <a href="#contactos" class="nav__link">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">Bienvenidos a la biblioteca de Triple</h1>
+        <p class="header__description">
+          ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven y
+          amplía tus conocimientos sobre desarrollo, o simplemente ven a
+          trabajar o estudiar con nosotros. ¡Este es un lugar genial para
+          estudiantes!
+        </p>
+        <img
+          src="./images/inside_the_library.png"
+          alt="Illustration 'Inside the library'"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <a href="#nosotros" class="header__link">Sobre la librería &darr;</a>
+          <p class="header__address">
+            Avenida del Éxito 200, Ciudad Triple Peaks
+          </p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section id="eventos" class="events">
+          <div class="events__content">
+            <h2 class="events__heading">Próximos eventos:</h2>
+            <h3 class="events__title">
+              En honor a Joan Feynman: "Las mujeres en la astrofísica"
+            </h3>
+            <div class="event-info events__info-section">
+              <div class="event-info__item">
+                <div
+                  class="event-info__icon event-info__icon_type_calendar"
+                ></div>
+                <p class="event-info__text">Lunes, 12 de enero.</p>
+              </div>
+              <div class="event-info__item">
+                <div class="event-info__icon event-info__icon_type_pin"></div>
+                <p class="event-info__text">
+                  Sala de conferencias y virtual de la biblioteca de Triple
+                </p>
+              </div>
+            </div>
+            <p class="events__description">
+              En este evento, que celebra el nombre de la biblioteca, nuestra
+              conferencista invitada nos llevará a un viaje para conocer a las
+              investigadoras más destacadas en ciencia espacial a nivel mundial.
+              Se suele tener la falsa idea de que este campo está mayormente
+              dominado por los hombres, pero nuestra conferencia busca cambiar
+              esa noción y probar que no ha sido así desde, al menos, el siglo
+              XVIII.
+            </p>
+            <a href="#" class="events__more">Más eventos &rarr;</a>
+          </div>
+          <div class="events__cover">
+            <img
+              src="./images/cafe.png"
+              alt="Illustration 'Inside the Library'"
+              class="events__image"
+            />
+            <div class="person person_name_feynman">
+              <p class="person__caption">Joan Feynman</p>
+              <img
+                src="./images/person_feynman.png"
+                alt="Joan Feynman Picture"
+                class="person__image person__image_size_l"
+              />
+            </div>
+            <div class="person person_name_burbidge">
+              <p class="person__caption">Margaret Burbidge</p>
+              <img
+                src="./images/person_burbidge.png"
+                alt="Margaret Burbidge Picture"
+                class="person__image person__image_size_m"
+              />
+            </div>
+            <div class="person person_name_cannon">
+              <img
+                src="./images/person_cannon.png"
+                alt="Annie Jump Cannon Picture"
+                class="person__image person__image_size_m"
+              />
+              <p class="person__caption">Annie Jump Cannon</p>
+            </div>
+            <div class="person person_name_mitchell">
+              <img
+                src="./images/person_mitchell.png"
+                alt="Maria Mitchell Picture"
+                class="person__image person__image_size_s"
+              />
+              <p class="person__caption">Maria Mitchell</p>
+            </div>
+            <div class="person person_name_tarter">
+              <p class="person__caption">Jill Tarter</p>
+              <img
+                src="./images/person_tarter.png"
+                alt="Jill Tarter Picture"
+                class="person__image person__image_size_m"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section id="staff" class="staff">
+          <h2 class="staff__title">
+            Los preferidos de nuestros lectores y lectoras
+          </h2>
+          <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">La Metamorfosis</h3>
+                <p class="card__text">
+                  Empezamos por un clasico, "La Metamorfosis" de Franz Kafka
+                  trata sobre Gregor Samsa, quien se despierta un día convertido
+                  en un insecto. La historia explora su transformación y cómo
+                  afecta a su vida y relaciones familiares. Kafka aborda temas
+                  como la alienación y la incomunicación en la sociedad.
+                </p>
+                <p class="card__footer">Franz Kafka</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Hábitos Atómicos</h3>
+                <p class="card__text">
+                  Si quieres un libro para empezar cambios a tu vida, este es el
+                  ideal "Los Hábitos Atómicos" revela el poder de pequeñas
+                  acciones para transformar la vida diaria, proporcionando
+                  estrategias prácticas respaldadas por la ciencia para
+                  construir hábitos positivos de manera efectiva.
+                </p>
+                <p class="card__footer">James Clear</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Ciudades de Papel</h3>
+                <p class="card__text">
+                  Si se busca algo mas juvenil esta es una novela adolecente que
+                  sigue la travesía de Quentin Jacobsen en busca de su
+                  enigmática vecina Margo Roth Spiegelman, quien desaparece
+                  dejando pistas intrigantes. A medida que Quentin sigue las
+                  pistas, descubre más sobre Margo y se embarca en un viaje
+                  lleno de misterio, aventura y reflexión sobre la naturaleza de
+                  las relaciones humanas.
+                </p>
+                <p class="card__footer">John Green</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Cien años de soledad</h3>
+                <p class="card__text">
+                  Para dar homenaje a mi tierra "Cien años de soledad" de
+                  Gabriel García Márquez narra la historia de la familia Buendía
+                  en el mágico pueblo de Macondo. A través de varias
+                  generaciones, la novela fusiona lo fantástico y lo real. La
+                  novela explora temas universales como el amor, la soledad, la
+                  política y el tiempo, dejando una marca perdurable en la
+                  literatura mundial.
+                </p>
+                <p class="card__footer">Gabriel G. Marquez</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section id="miembros" class="membership">
+          <h2 class="membership__title">
+            ¡Convertirse en miembro de la biblioteca es muy fácil!
+          </h2>
+          <ul class="membership__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Paso 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Completa el formulario de afiliación en línea o en persona.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Ven y recoge tu credencial de la biblioteca en la recepción.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">Firma el envés de la tarjeta.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="icon finish"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                ¡Disfruta de los increíbles beneficios de nuestra membresía!
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section id="nosotros" class="about">
+          <h2 class="about__title">Sobre la biblioteca</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Las bibliotecas son centros imprescindibles en prácticamente
+              cualquier ciudad, y TripleTen no es la excepción. Abrió sus
+              puertas por primera vez en 2018, ¡cuando nuestra pequeña ciudad
+              daba la bienvenida a sus primeros habitantes!
+            </p>
+            <p class="about__paragraph">
+              Desde su apertura inicial, la biblioteca ha recibido casi 342
+              visitantes cada mes. ¡Es casi el 50% de nuestra población! Hasta
+              ahora, la mayoría de nuestros ciudadanos han disfrutado de leer
+              libros y hacer uso de nuestros amplios recursos en línea.
+            </p>
+            <p class="about__paragraph">
+              La biblioteca toma su nombre en honor a Joan Feynman, una
+              astrofísica estadounidense y la primera mujer en ser elegida como
+              oficial de la Unión Geofísica Americana.
+            </p>
+          </div>
+          <div class="about__circle"></div>
+        </section>
+      </main>
+      <footer id="contactos" class="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo-white.svg"
+              alt="Biblioteca Triple"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <h3 class="footer__column-heading">Horas</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                Lunes a Viernes: 9 a.m. — 8 p.m.
+              </li>
+              <li class="footer__list-item">
+                Sabados y Domingos: 10 a.m. — 6 p.m.
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Redes Sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Logo Facebook"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram Logo"
+                    class="footer__social-icon"
+                  />Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2024 Daniela Castro</p>
+      </footer>
+    </div>
+  </body>
+</html>
