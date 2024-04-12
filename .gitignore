@@ -1,0 +1,4 @@
+# evita subir ficheros que coincidan con este nombre 
+.DS_Store
+
+
